@@ -18,7 +18,7 @@ Designed for Beginner's
 * Download the tutorial files on this page within the zip file  
 
 #### Download the files for this class:
-1. Go to https://github.com/AmitKKhanchandani/Learn-Html-CSS-JS
+1. Go to https://github.com/Mouneshgouda/Learn-Html-css-js?tab=readme-ov-file
 2. Click on the button on the right-hand side that says "Download ZIP"
 3. Go to your downloads folder and double click on the .zip file to unzip it
 4. From Visual Studio Code: File > open folder, select the folder and then click "Open"
@@ -48,4 +48,3 @@ The content of this project itself is licensed under the [Creative Commons Attri
 
 The underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
 
-© [Amit K Khanchandani](http://www.amitk.co.in)
