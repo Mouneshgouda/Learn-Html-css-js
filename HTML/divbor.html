@@ -13,3 +13,92 @@
     <div style="height:200px;width:500px;" class="bor"></div>
 </body>
 </html>
+
+
+/* ---------- GLOBAL LAYOUT ---------- */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ---------- HEADINGS ---------- */
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+/* ---------- LINKS ---------- */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- FORMS ---------- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea, select, button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 3px rgba(74, 144, 226, 0.3);
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3578c2;
+}
+
+/* ---------- CARD/BOX ---------- */
+.card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* ---------- TEXT ALIGN ---------- */
+.text-center {
+  text-align: center;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
